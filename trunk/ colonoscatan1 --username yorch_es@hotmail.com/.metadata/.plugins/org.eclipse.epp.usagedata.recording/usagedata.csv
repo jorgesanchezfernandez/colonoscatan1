@@ -1,0 +1,14 @@
+what,kind,bundleId,bundleVersion,description,time
+started,bundle,org.eclipse.jst.common.project.facet.core,1.3.1.v200807031821,org.eclipse.jst.common.project.facet.core,1232019563296
+deactivated,workbench,org.eclipse.ui.workbench,3.4.0.I20080606-1300,,1232019582281
+activated,workbench,org.eclipse.ui.workbench,3.4.0.I20080606-1300,,1232019583500
+deactivated,workbench,org.eclipse.ui.workbench,3.4.0.I20080606-1300,,1232019583531
+activated,workbench,org.eclipse.ui.workbench,3.4.0.I20080606-1300,,1232019587000
+started,bundle,org.tigris.subversion.clientadapter,1.5.1,org.tigris.subversion.clientadapter,1232019587187
+started,bundle,org.tigris.subversion.subclipse.core,1.4.3,org.tigris.subversion.subclipse.core,1232019587218
+started,bundle,org.tigris.subversion.clientadapter.javahl,1.5.2,org.tigris.subversion.clientadapter.javahl,1232019587312
+closed,workbench,org.eclipse.ui.workbench,3.4.0.I20080606-1300,,1232019588906
+stopped,bundle,org.eclipse.mylyn.ide.ant,3.0.0.v20080619-1900,org.eclipse.mylyn.ide.ant,1232019589375
+stopped,bundle,org.eclipse.jst.j2ee.xdoclet.runtime,1.1.102.v200805140135,org.eclipse.jst.j2ee.xdoclet.runtime,1232019590109
+stopped,bundle,org.eclipse.jst.j2ee.ejb.annotations.xdoclet,1.2.0.v200805140020,org.eclipse.jst.j2ee.ejb.annotations.xdoclet,1232019590125
+stopped,bundle,org.eclipse.jst.server.generic.jboss,1.5.205.v200805140145,org.eclipse.jst.server.generic.jboss,1232019590140
