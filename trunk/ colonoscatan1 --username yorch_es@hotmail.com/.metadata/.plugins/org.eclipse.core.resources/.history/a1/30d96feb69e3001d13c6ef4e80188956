@@ -1,0 +1,6 @@
+package Dados;
+
+
+public class Dado implements IDado {
+
+}

@@ -1,0 +1,19 @@
+
+
+public interface IFicha {
+
+	/**
+	 * @return  Returns the tablero.
+	 * @uml.property  name="tablero"
+	 * @uml.associationEnd  inverse="iFicha:Tablero"
+	 */
+	public Tablero getTablero();
+
+	/**
+	 * Setter of the property <tt>tablero</tt>
+	 * @param tablero  The tablero to set.
+	 * @uml.property  name="tablero"
+	 */
+	public void setTablero(Tablero tablero);
+
+}

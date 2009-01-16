@@ -1,0 +1,29 @@
+
+
+public class Mazo {
+
+	/** 
+	 * @uml.property name="tablero"
+	 * @uml.associationEnd inverse="mazo:Tablero"
+	 */
+	private Tablero tablero;
+
+	/** 
+	 * Getter of the property <tt>tablero</tt>
+	 * @return  Returns the tablero.
+	 * @uml.property  name="tablero"
+	 */
+	public Tablero getTablero() {
+		return tablero;
+	}
+
+	/** 
+	 * Setter of the property <tt>tablero</tt>
+	 * @param tablero  The tablero to set.
+	 * @uml.property  name="tablero"
+	 */
+	public void setTablero(Tablero tablero) {
+		this.tablero = tablero;
+	}
+
+}

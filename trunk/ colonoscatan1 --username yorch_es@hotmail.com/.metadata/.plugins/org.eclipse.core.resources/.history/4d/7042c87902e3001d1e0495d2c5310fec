@@ -1,0 +1,5 @@
+
+
+public class FichaCaballero extends Ficha implements IFicha {
+
+}

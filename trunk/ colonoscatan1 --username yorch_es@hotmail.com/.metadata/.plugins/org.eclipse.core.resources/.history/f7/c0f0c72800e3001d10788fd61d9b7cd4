@@ -1,0 +1,149 @@
+
+
+public class Jugador {
+
+	/**
+	 * @uml.property  name="tablero"
+	 * @uml.associationEnd  inverse="jugador:Tablero"
+	 */
+	private Tablero tablero;
+
+	/**
+	 * Getter of the property <tt>tablero</tt>
+	 * @return  Returns the tablero.
+	 * @uml.property  name="tablero"
+	 */
+	public Tablero getTablero() {
+		return tablero;
+	}
+
+	/**
+	 * Setter of the property <tt>tablero</tt>
+	 * @param tablero  The tablero to set.
+	 * @uml.property  name="tablero"
+	 */
+	public void setTablero(Tablero tablero) {
+		this.tablero = tablero;
+	}
+
+	/**
+	 * @uml.property  name="mundo"
+	 * @uml.associationEnd  aggregation="composite" inverse="jugador:Mundo"
+	 */
+	private Mundo mundo;
+
+	/**
+	 * Getter of the property <tt>mundo</tt>
+	 * @return  Returns the mundo.
+	 * @uml.property  name="mundo"
+	 */
+	public Mundo getMundo() {
+		return mundo;
+	}
+
+	/**
+	 * Setter of the property <tt>mundo</tt>
+	 * @param mundo  The mundo to set.
+	 * @uml.property  name="mundo"
+	 */
+	public void setMundo(Mundo mundo) {
+		this.mundo = mundo;
+	}
+
+	/** 
+	 * @uml.property name="carta"
+	 * @uml.associationEnd multiplicity="(3 3)" dimension="1" ordering="true" aggregation="composite" inverse="jugador:Carta"
+	 */
+	private Carta[] cartas;
+
+	/** 
+	 * Getter of the property <tt>carta</tt>
+	 * @return  Returns the cartas.
+	 * @uml.property  name="carta"
+	 */
+	public Carta[] getCarta() {
+		return cartas;
+	}
+
+	/** 
+	 * Setter of the property <tt>carta</tt>
+	 * @param carta  The cartas to set.
+	 * @uml.property  name="carta"
+	 */
+	public void setCarta(Carta[] carta) {
+		cartas = carta;
+	}
+
+	/**
+	 * @uml.property  name="carta1"
+	 * @uml.associationEnd  multiplicity="(3 3)" dimension="1" ordering="true" inverse="jugador1:Carta"
+	 */
+	private Carta[] carta1s;
+
+	/**
+	 * Getter of the property <tt>carta1</tt>
+	 * @return  Returns the carta1s.
+	 * @uml.property  name="carta1"
+	 */
+	public Carta[] getCarta1() {
+		return carta1s;
+	}
+
+	/**
+	 * Setter of the property <tt>carta1</tt>
+	 * @param carta1  The carta1s to set.
+	 * @uml.property  name="carta1"
+	 */
+	public void setCarta1(Carta[] carta1) {
+		carta1s = carta1;
+	}
+
+	/**
+	 * @uml.property  name="carta2"
+	 * @uml.associationEnd  multiplicity="(3 3)" dimension="1" aggregation="shared" inverse="jugador2:Carta"
+	 */
+	private Carta[] carta2s;
+
+	/**
+	 * Getter of the property <tt>carta2</tt>
+	 * @return  Returns the carta2s.
+	 * @uml.property  name="carta2"
+	 */
+	public Carta[] getCarta2() {
+		return carta2s;
+	}
+
+	/**
+	 * Setter of the property <tt>carta2</tt>
+	 * @param carta2  The carta2s to set.
+	 * @uml.property  name="carta2"
+	 */
+	public void setCarta2(Carta[] carta2) {
+		carta2s = carta2;
+	}
+
+	/**
+	 * @uml.property  name="carta3"
+	 * @uml.associationEnd  multiplicity="(3 3)" dimension="1" aggregation="composite" inverse="jugador3:Carta"
+	 */
+	private Carta[] carta3s = 3;
+
+	/** 
+	 * Getter of the property <tt>carta3</tt>
+	 * @return  Returns the carta3s.
+	 * @uml.property  name="carta3"
+	 */
+	public Carta[] getCarta3() {
+		return carta3s;
+	}
+
+	/** 
+	 * Setter of the property <tt>carta3</tt>
+	 * @param carta3  The carta3s to set.
+	 * @uml.property  name="carta3"
+	 */
+	public void setCarta3(Carta[] carta3) {
+		carta3s = carta3;
+	}
+
+}

@@ -1,0 +1,18 @@
+package Fichas;
+
+
+public class FichaMolino extends Ficha {
+
+	@Override
+	public void CreateFicha() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void getFicha() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

@@ -1,0 +1,428 @@
+
+
+import java.util.Collection;
+import java.util.Iterator;
+
+public class Tablero {
+
+	/**
+	 * @uml.property  name="mundo"
+	 * @uml.associationEnd  multiplicity="(2 2)" aggregation="composite" inverse="tablero:Mundo"
+	 */
+	private Collection mundo;
+
+	/**
+	 * Getter of the property <tt>mundo</tt>
+	 * @return  Returns the mundo.
+	 * @uml.property  name="mundo"
+	 */
+	public Collection getMundo() {
+		return mundo;
+	}
+
+	/**
+	 * Returns an iterator over the elements in this collection. 
+	 * @return  an <tt>Iterator</tt> over the elements in this collection
+	 * @see java.util.Collection#iterator()
+	 * @uml.property  name="mundo"
+	 */
+	public Iterator mundoIterator() {
+		return mundo.iterator();
+	}
+
+	/**
+	 * Returns <tt>true</tt> if this collection contains no elements.
+	 * @return  <tt>true</tt> if this collection contains no elements
+	 * @see java.util.Collection#isEmpty()
+	 * @uml.property  name="mundo"
+	 */
+	public boolean isMundoEmpty() {
+		return mundo.isEmpty();
+	}
+
+	/**
+	 * Returns <tt>true</tt> if this collection contains the specified element. 
+	 * @param element  whose presence in this collection is to be tested.
+	 * @see java.util.Collection#contains(Object)
+	 * @uml.property  name="mundo"
+	 */
+	public boolean containsMundo(Mundo mundo) {
+		return this.mundo.contains(mundo);
+	}
+
+	/**
+	 * Returns <tt>true</tt> if this collection contains all of the elements in the specified collection.
+	 * @param elements  collection to be checked for containment in this collection.
+	 * @see java.util.Collection#containsAll(Collection)
+	 * @uml.property  name="mundo"
+	 */
+	public boolean containsAllMundo(Collection mundo) {
+		return this.mundo.containsAll(mundo);
+	}
+
+	/**
+	 * Returns the number of elements in this collection.
+	 * @return  the number of elements in this collection
+	 * @see java.util.Collection#size()
+	 * @uml.property  name="mundo"
+	 */
+	public int mundoSize() {
+		return mundo.size();
+	}
+
+	/**
+	 * Returns all elements of this collection in an array.
+	 * @return  an array containing all of the elements in this collection
+	 * @see java.util.Collection#toArray()
+	 * @uml.property  name="mundo"
+	 */
+	public Mundo[] mundoToArray() {
+		return (Mundo[]) mundo.toArray(new Mundo[mundo.size()]);
+	}
+
+	/**
+	 * Returns an array containing all of the elements in this collection;  the runtime type of the returned array is that of the specified array.
+	 * @param a  the array into which the elements of this collection are to be stored.
+	 * @return  an array containing all of the elements in this collection
+	 * @see java.util.Collection#toArray(Object[])
+	 * @uml.property  name="mundo"
+	 */
+	public Mundo[] mundoToArray(Mundo[] mundo) {
+		return (Mundo[]) this.mundo.toArray(mundo);
+	}
+
+	/**
+	 * Ensures that this collection contains the specified element (optional operation). 
+	 * @param element  whose presence in this collection is to be ensured.
+	 * @see java.util.Collection#add(Object)
+	 * @uml.property  name="mundo"
+	 */
+	public boolean addMundo(Mundo mundo) {
+		return this.mundo.add(mundo);
+	}
+
+	/**
+	 * Setter of the property <tt>mundo</tt>
+	 * @param mundo  the mundo to set.
+	 * @uml.property  name="mundo"
+	 */
+	public void setMundo(Collection mundo) {
+		this.mundo = mundo;
+	}
+
+	/**
+	 * Removes a single instance of the specified element from this collection, if it is present (optional operation).
+	 * @param element  to be removed from this collection, if present.
+	 * @see java.util.Collection#add(Object)
+	 * @uml.property  name="mundo"
+	 */
+	public boolean removeMundo(Mundo mundo) {
+		return this.mundo.remove(mundo);
+	}
+
+	/**
+	 * Removes all of the elements from this collection (optional operation).
+	 * @see java.util.Collection#clear()
+	 * @uml.property  name="mundo"
+	 */
+	public void clearMundo() {
+		this.mundo.clear();
+	}
+
+	/**
+	 * @uml.property  name="jugador"
+	 * @uml.associationEnd  multiplicity="(2 2)" aggregation="composite" inverse="tablero:Jugador"
+	 */
+	private Collection jugador;
+
+	/**
+	 * Getter of the property <tt>jugador</tt>
+	 * @return  Returns the jugador.
+	 * @uml.property  name="jugador"
+	 */
+	public Collection getJugador() {
+		return jugador;
+	}
+
+	/**
+	 * Returns an iterator over the elements in this collection. 
+	 * @return  an <tt>Iterator</tt> over the elements in this collection
+	 * @see java.util.Collection#iterator()
+	 * @uml.property  name="jugador"
+	 */
+	public Iterator jugadorIterator() {
+		return jugador.iterator();
+	}
+
+	/**
+	 * Returns <tt>true</tt> if this collection contains no elements.
+	 * @return  <tt>true</tt> if this collection contains no elements
+	 * @see java.util.Collection#isEmpty()
+	 * @uml.property  name="jugador"
+	 */
+	public boolean isJugadorEmpty() {
+		return jugador.isEmpty();
+	}
+
+	/**
+	 * Returns <tt>true</tt> if this collection contains the specified element. 
+	 * @param element  whose presence in this collection is to be tested.
+	 * @see java.util.Collection#contains(Object)
+	 * @uml.property  name="jugador"
+	 */
+	public boolean containsJugador(Jugador jugador) {
+		return this.jugador.contains(jugador);
+	}
+
+	/**
+	 * Returns <tt>true</tt> if this collection contains all of the elements in the specified collection.
+	 * @param elements  collection to be checked for containment in this collection.
+	 * @see java.util.Collection#containsAll(Collection)
+	 * @uml.property  name="jugador"
+	 */
+	public boolean containsAllJugador(Collection jugador) {
+		return this.jugador.containsAll(jugador);
+	}
+
+	/**
+	 * Returns the number of elements in this collection.
+	 * @return  the number of elements in this collection
+	 * @see java.util.Collection#size()
+	 * @uml.property  name="jugador"
+	 */
+	public int jugadorSize() {
+		return jugador.size();
+	}
+
+	/**
+	 * Returns all elements of this collection in an array.
+	 * @return  an array containing all of the elements in this collection
+	 * @see java.util.Collection#toArray()
+	 * @uml.property  name="jugador"
+	 */
+	public Jugador[] jugadorToArray() {
+		return (Jugador[]) jugador.toArray(new Jugador[jugador.size()]);
+	}
+
+	/**
+	 * Returns an array containing all of the elements in this collection;  the runtime type of the returned array is that of the specified array.
+	 * @param a  the array into which the elements of this collection are to be stored.
+	 * @return  an array containing all of the elements in this collection
+	 * @see java.util.Collection#toArray(Object[])
+	 * @uml.property  name="jugador"
+	 */
+	public Jugador[] jugadorToArray(Jugador[] jugador) {
+		return (Jugador[]) this.jugador.toArray(jugador);
+	}
+
+	/**
+	 * Ensures that this collection contains the specified element (optional operation). 
+	 * @param element  whose presence in this collection is to be ensured.
+	 * @see java.util.Collection#add(Object)
+	 * @uml.property  name="jugador"
+	 */
+	public boolean addJugador(Jugador jugador) {
+		return this.jugador.add(jugador);
+	}
+
+	/**
+	 * Setter of the property <tt>jugador</tt>
+	 * @param jugador  the jugador to set.
+	 * @uml.property  name="jugador"
+	 */
+	public void setJugador(Collection jugador) {
+		this.jugador = jugador;
+	}
+
+	/**
+	 * Removes a single instance of the specified element from this collection, if it is present (optional operation).
+	 * @param element  to be removed from this collection, if present.
+	 * @see java.util.Collection#add(Object)
+	 * @uml.property  name="jugador"
+	 */
+	public boolean removeJugador(Jugador jugador) {
+		return this.jugador.remove(jugador);
+	}
+
+	/**
+	 * Removes all of the elements from this collection (optional operation).
+	 * @see java.util.Collection#clear()
+	 * @uml.property  name="jugador"
+	 */
+	public void clearJugador() {
+		this.jugador.clear();
+	}
+
+	/**
+	 * @uml.property  name="iDado"
+	 * @uml.associationEnd  multiplicity="(2 2)" aggregation="composite" inverse="tablero:IDado"
+	 */
+	private Collection dado;
+
+	/**
+	 * Getter of the property <tt>iDado</tt>
+	 * @return  Returns the dado.
+	 * @uml.property  name="iDado"
+	 */
+	public Collection getIDado() {
+		return dado;
+	}
+
+	/**
+	 * Returns an iterator over the elements in this collection. 
+	 * @return  an <tt>Iterator</tt> over the elements in this collection
+	 * @see java.util.Collection#iterator()
+	 * @uml.property  name="iDado"
+	 */
+	public Iterator iDadoIterator() {
+		return dado.iterator();
+	}
+
+	/**
+	 * Returns <tt>true</tt> if this collection contains no elements.
+	 * @return  <tt>true</tt> if this collection contains no elements
+	 * @see java.util.Collection#isEmpty()
+	 * @uml.property  name="iDado"
+	 */
+	public boolean isIDadoEmpty() {
+		return dado.isEmpty();
+	}
+
+	/**
+	 * Returns <tt>true</tt> if this collection contains the specified element. 
+	 * @param element  whose presence in this collection is to be tested.
+	 * @see java.util.Collection#contains(Object)
+	 * @uml.property  name="iDado"
+	 */
+	public boolean containsIDado(IDado dado) {
+		return dado.contains(dado);
+	}
+
+	/**
+	 * Returns <tt>true</tt> if this collection contains all of the elements in the specified collection.
+	 * @param elements  collection to be checked for containment in this collection.
+	 * @see java.util.Collection#containsAll(Collection)
+	 * @uml.property  name="iDado"
+	 */
+	public boolean containsAllIDado(Collection dado) {
+		return this.dado.containsAll(dado);
+	}
+
+	/**
+	 * Returns the number of elements in this collection.
+	 * @return  the number of elements in this collection
+	 * @see java.util.Collection#size()
+	 * @uml.property  name="iDado"
+	 */
+	public int iDadoSize() {
+		return dado.size();
+	}
+
+	/**
+	 * Returns all elements of this collection in an array.
+	 * @return  an array containing all of the elements in this collection
+	 * @see java.util.Collection#toArray()
+	 * @uml.property  name="iDado"
+	 */
+	public IDado[] iDadoToArray() {
+		return (IDado[]) dado.toArray(new IDado[dado.size()]);
+	}
+
+	/**
+	 * Returns an array containing all of the elements in this collection;  the runtime type of the returned array is that of the specified array.
+	 * @param a  the array into which the elements of this collection are to be stored.
+	 * @return  an array containing all of the elements in this collection
+	 * @see java.util.Collection#toArray(Object[])
+	 * @uml.property  name="iDado"
+	 */
+	public IDado[] iDadoToArray(IDado[] dado) {
+		return (IDado[]) this.dado.toArray(dado);
+	}
+
+	/**
+	 * Ensures that this collection contains the specified element (optional operation). 
+	 * @param element  whose presence in this collection is to be ensured.
+	 * @see java.util.Collection#add(Object)
+	 * @uml.property  name="iDado"
+	 */
+	public boolean addIDado(IDado dado) {
+		return dado.add(dado);
+	}
+
+	/**
+	 * Setter of the property <tt>iDado</tt>
+	 * @param iDado  the dado to set.
+	 * @uml.property  name="iDado"
+	 */
+	public void setIDado(Collection dado) {
+		dado = dado;
+	}
+
+	/**
+	 * Removes a single instance of the specified element from this collection, if it is present (optional operation).
+	 * @param element  to be removed from this collection, if present.
+	 * @see java.util.Collection#add(Object)
+	 * @uml.property  name="iDado"
+	 */
+	public boolean removeIDado(IDado dado) {
+		return dado.remove(dado);
+	}
+
+	/**
+	 * Removes all of the elements from this collection (optional operation).
+	 * @see java.util.Collection#clear()
+	 * @uml.property  name="iDado"
+	 */
+	public void clearIDado() {
+		dado.clear();
+	}
+
+	/** 
+	 * @uml.property name="mazo"
+	 * @uml.associationEnd multiplicity="(0 -1)" dimension="1" ordering="true" aggregation="composite" inverse="tablero:Mazo"
+	 */
+	private Mazo[] mazo;
+
+	/** 
+	 * Getter of the property <tt>mazo</tt>
+	 * @return  Returns the mazo.
+	 * @uml.property  name="mazo"
+	 */
+	public Mazo[] getMazo() {
+		return mazo;
+	}
+
+	/** 
+	 * Setter of the property <tt>mazo</tt>
+	 * @param mazo  the mazo to set.
+	 * @uml.property  name="mazo"
+	 */
+	public void setMazo(Mazo[] mazo) {
+		this.mazo = mazo;
+	}
+
+	/**
+	 * @uml.property  name="ficha"
+	 * @uml.associationEnd  multiplicity="(2 2)" dimension="1" ordering="true" aggregation="composite" inverse="tablero:Ficha"
+	 */
+	private Ficha[] fichas;
+
+	/**
+	 * Getter of the property <tt>ficha</tt>
+	 * @return  Returns the fichas.
+	 * @uml.property  name="ficha"
+	 */
+	public Ficha[] getFicha() {
+		return fichas;
+	}
+
+	/**
+	 * Setter of the property <tt>ficha</tt>
+	 * @param ficha  The fichas to set.
+	 * @uml.property  name="ficha"
+	 */
+	public void setFicha(Ficha[] ficha) {
+		fichas = ficha;
+	}
+
+}

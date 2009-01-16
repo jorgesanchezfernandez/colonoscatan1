@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+activated,workbench,org.eclipse.ui.workbench,3.4.0.I20080606-1300,,1232022459656
+no handler,command,org.eclipse.ui,3.4.0.I20080610-1200,org.eclipse.ui.file.refresh,1232022467359
+deactivated,workbench,org.eclipse.ui.workbench,3.4.0.I20080606-1300,,1232022467359
+activated,workbench,org.eclipse.ui.workbench,3.4.0.I20080606-1300,,1232022467421
+no handler,command,org.eclipse.ui,3.4.0.I20080610-1200,org.eclipse.ui.file.refresh,1232022467421
+deactivated,workbench,org.eclipse.ui.workbench,3.4.0.I20080606-1300,,1232022476828
+activated,workbench,org.eclipse.ui.workbench,3.4.0.I20080606-1300,,1232022490843
+deactivated,workbench,org.eclipse.ui.workbench,3.4.0.I20080606-1300,,1232022501187
+activated,workbench,org.eclipse.ui.workbench,3.4.0.I20080606-1300,,1232022573750
+deactivated,workbench,org.eclipse.ui.workbench,3.4.0.I20080606-1300,,1232022599000
+activated,workbench,org.eclipse.ui.workbench,3.4.0.I20080606-1300,,1232022625687
+deactivated,workbench,org.eclipse.ui.workbench,3.4.0.I20080606-1300,,1232022633890
+activated,workbench,org.eclipse.ui.workbench,3.4.0.I20080606-1300,,1232022644093
+activated,view,org.eclipse.jdt.ui,3.4.0.v20080603-2000,org.eclipse.jdt.ui.PackageExplorer,1232022652312
+activated,editor,com.soyatec.euml2,,com.soyatec.uml.ClassDiagramEditor,1232022652421
+activated,view,org.eclipse.jdt.ui,3.4.0.v20080603-2000,org.eclipse.jdt.ui.PackageExplorer,1232022652468
+activated,editor,com.soyatec.euml2,,com.soyatec.uml.ClassDiagramEditor,1232022652562
+activated,view,org.eclipse.jdt.ui,3.4.0.v20080603-2000,org.eclipse.jdt.ui.PackageExplorer,1232022652609
+activated,editor,com.soyatec.euml2,,com.soyatec.uml.ClassDiagramEditor,1232022658093
+activated,view,org.eclipse.jdt.ui,3.4.0.v20080603-2000,org.eclipse.jdt.ui.PackageExplorer,1232022664703
+opened,editor,org.eclipse.jdt.ui,3.4.0.v20080603-2000,org.eclipse.jdt.ui.CompilationUnitEditor,1232022668453
+activated,editor,org.eclipse.jdt.ui,3.4.0.v20080603-2000,org.eclipse.jdt.ui.CompilationUnitEditor,1232022668671
+executed,command,org.eclipse.ui,3.4.0.I20080610-1200,org.eclipse.ui.file.save,1232022710343
+activated,editor,com.soyatec.euml2,,com.soyatec.uml.ClassDiagramEditor,1232022716625
+activated,view,org.eclipse.jdt.ui,3.4.0.v20080603-2000,org.eclipse.jdt.ui.PackageExplorer,1232022734578

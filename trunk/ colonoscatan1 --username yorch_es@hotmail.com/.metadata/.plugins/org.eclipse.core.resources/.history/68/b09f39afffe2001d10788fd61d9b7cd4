@@ -1,0 +1,53 @@
+
+
+public class Jugador {
+
+	/**
+	 * @uml.property  name="tablero"
+	 * @uml.associationEnd  inverse="jugador:Tablero"
+	 */
+	private Tablero tablero;
+
+	/**
+	 * Getter of the property <tt>tablero</tt>
+	 * @return  Returns the tablero.
+	 * @uml.property  name="tablero"
+	 */
+	public Tablero getTablero() {
+		return tablero;
+	}
+
+	/**
+	 * Setter of the property <tt>tablero</tt>
+	 * @param tablero  The tablero to set.
+	 * @uml.property  name="tablero"
+	 */
+	public void setTablero(Tablero tablero) {
+		this.tablero = tablero;
+	}
+
+	/**
+	 * @uml.property  name="mundo"
+	 * @uml.associationEnd  aggregation="composite" inverse="jugador:Mundo"
+	 */
+	private Mundo mundo;
+
+	/**
+	 * Getter of the property <tt>mundo</tt>
+	 * @return  Returns the mundo.
+	 * @uml.property  name="mundo"
+	 */
+	public Mundo getMundo() {
+		return mundo;
+	}
+
+	/**
+	 * Setter of the property <tt>mundo</tt>
+	 * @param mundo  The mundo to set.
+	 * @uml.property  name="mundo"
+	 */
+	public void setMundo(Mundo mundo) {
+		this.mundo = mundo;
+	}
+
+}

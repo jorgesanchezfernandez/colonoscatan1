@@ -1,0 +1,7 @@
+package Fichas;
+
+
+public interface IFicha {
+
+
+}

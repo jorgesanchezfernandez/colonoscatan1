@@ -1,0 +1,6 @@
+package Fichas;
+
+
+public abstract class FichaMolino extends Ficha {
+
+	}

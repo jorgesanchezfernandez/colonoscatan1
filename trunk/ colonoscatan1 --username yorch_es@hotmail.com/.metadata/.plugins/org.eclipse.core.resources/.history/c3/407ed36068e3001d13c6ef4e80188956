@@ -1,0 +1,6 @@
+package Fichas;
+
+
+public class FichaCaballero extends Ficha {
+
+}

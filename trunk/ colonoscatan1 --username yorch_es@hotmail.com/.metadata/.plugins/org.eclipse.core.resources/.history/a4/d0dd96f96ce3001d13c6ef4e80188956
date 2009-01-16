@@ -1,0 +1,33 @@
+package Partida;
+import Cartas.Carta;
+
+
+
+public class Mazo {
+
+
+	/**
+	 * @uml.property  name="carta"
+	 * @uml.associationEnd  multiplicity="(0 -1)" dimension="1" ordering="true" aggregation="composite" inverse="mazo:Carta"
+	 */
+	private Carta[] cartas;
+
+	/**
+	 * Getter of the property <tt>carta</tt>
+	 * @return  Returns the cartas.
+	 * @uml.property  name="carta"
+	 */
+	public Carta[] getCarta() {
+		return cartas;
+	}
+
+	/**
+	 * Setter of the property <tt>carta</tt>
+	 * @param carta  The cartas to set.
+	 * @uml.property  name="carta"
+	 */
+	public void setCarta(Carta[] carta) {
+		cartas = carta;
+	}
+
+}

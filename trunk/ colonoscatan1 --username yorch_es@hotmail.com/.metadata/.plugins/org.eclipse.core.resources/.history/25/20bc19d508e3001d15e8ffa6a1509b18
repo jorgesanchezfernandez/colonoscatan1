@@ -1,0 +1,211 @@
+package Partida;
+
+
+import IDado;
+
+import java.util.Collection;
+import java.util.Iterator;
+
+import Fichas.IFicha;
+
+public class Tablero {
+
+	/**
+	 * @uml.property  name="jugador"
+	 * @uml.associationEnd  multiplicity="(2 2)" aggregation="composite" inverse="tablero:Jugador"
+	 */
+	private Collection jugador;
+
+	/**
+	 * Getter of the property <tt>jugador</tt>
+	 * @return  Returns the jugador.
+	 * @uml.property  name="jugador"
+	 */
+	public Collection getJugador() {
+		return jugador;
+	}
+
+	/**
+	 * Returns an iterator over the elements in this collection. 
+	 * @return  an <tt>Iterator</tt> over the elements in this collection
+	 * @see java.util.Collection#iterator()
+	 * @uml.property  name="jugador"
+	 */
+	public Iterator jugadorIterator() {
+		return jugador.iterator();
+	}
+
+	/**
+	 * Returns <tt>true</tt> if this collection contains no elements.
+	 * @return  <tt>true</tt> if this collection contains no elements
+	 * @see java.util.Collection#isEmpty()
+	 * @uml.property  name="jugador"
+	 */
+	public boolean isJugadorEmpty() {
+		return jugador.isEmpty();
+	}
+
+	/**
+	 * Returns <tt>true</tt> if this collection contains the specified element. 
+	 * @param element  whose presence in this collection is to be tested.
+	 * @see java.util.Collection#contains(Object)
+	 * @uml.property  name="jugador"
+	 */
+	public boolean containsJugador(Jugador jugador) {
+		return this.jugador.contains(jugador);
+	}
+
+	/**
+	 * Returns <tt>true</tt> if this collection contains all of the elements in the specified collection.
+	 * @param elements  collection to be checked for containment in this collection.
+	 * @see java.util.Collection#containsAll(Collection)
+	 * @uml.property  name="jugador"
+	 */
+	public boolean containsAllJugador(Collection jugador) {
+		return this.jugador.containsAll(jugador);
+	}
+
+	/**
+	 * Returns the number of elements in this collection.
+	 * @return  the number of elements in this collection
+	 * @see java.util.Collection#size()
+	 * @uml.property  name="jugador"
+	 */
+	public int jugadorSize() {
+		return jugador.size();
+	}
+
+	/**
+	 * Returns all elements of this collection in an array.
+	 * @return  an array containing all of the elements in this collection
+	 * @see java.util.Collection#toArray()
+	 * @uml.property  name="jugador"
+	 */
+	public Jugador[] jugadorToArray() {
+		return (Jugador[]) jugador.toArray(new Jugador[jugador.size()]);
+	}
+
+	/**
+	 * Returns an array containing all of the elements in this collection;  the runtime type of the returned array is that of the specified array.
+	 * @param a  the array into which the elements of this collection are to be stored.
+	 * @return  an array containing all of the elements in this collection
+	 * @see java.util.Collection#toArray(Object[])
+	 * @uml.property  name="jugador"
+	 */
+	public Jugador[] jugadorToArray(Jugador[] jugador) {
+		return (Jugador[]) this.jugador.toArray(jugador);
+	}
+
+	/**
+	 * Ensures that this collection contains the specified element (optional operation). 
+	 * @param element  whose presence in this collection is to be ensured.
+	 * @see java.util.Collection#add(Object)
+	 * @uml.property  name="jugador"
+	 */
+	public boolean addJugador(Jugador jugador) {
+		return this.jugador.add(jugador);
+	}
+
+	/**
+	 * Setter of the property <tt>jugador</tt>
+	 * @param jugador  the jugador to set.
+	 * @uml.property  name="jugador"
+	 */
+	public void setJugador(Collection jugador) {
+		this.jugador = jugador;
+	}
+
+	/**
+	 * Removes a single instance of the specified element from this collection, if it is present (optional operation).
+	 * @param element  to be removed from this collection, if present.
+	 * @see java.util.Collection#add(Object)
+	 * @uml.property  name="jugador"
+	 */
+	public boolean removeJugador(Jugador jugador) {
+		return this.jugador.remove(jugador);
+	}
+
+	/**
+	 * Removes all of the elements from this collection (optional operation).
+	 * @see java.util.Collection#clear()
+	 * @uml.property  name="jugador"
+	 */
+	public void clearJugador() {
+		this.jugador.clear();
+	}
+
+	/** 
+	 * @uml.property name="mazo"
+	 * @uml.associationEnd multiplicity="(0 -1)" dimension="1" ordering="true" aggregation="composite" inverse="tablero:Mazo"
+	 */
+	private Mazo[] mazo;
+
+	/** 
+	 * Getter of the property <tt>mazo</tt>
+	 * @return  Returns the mazo.
+	 * @uml.property  name="mazo"
+	 */
+	public Mazo[] getMazo() {
+		return mazo;
+	}
+
+	/** 
+	 * Setter of the property <tt>mazo</tt>
+	 * @param mazo  the mazo to set.
+	 * @uml.property  name="mazo"
+	 */
+	public void setMazo(Mazo[] mazo) {
+		this.mazo = mazo;
+	}
+
+	/**
+	 * @uml.property  name="iFicha"
+	 * @uml.associationEnd  multiplicity="(2 2)" dimension="1" ordering="true" aggregation="composite" inverse="tablero:IFicha"
+	 */
+	private IFicha[] fichas;
+
+	/**
+	 * Getter of the property <tt>iFicha</tt>
+	 * @return  Returns the fichas.
+	 * @uml.property  name="iFicha"
+	 */
+	public IFicha[] getIFicha() {
+		return fichas;
+	}
+
+	/**
+	 * Setter of the property <tt>iFicha</tt>
+	 * @param iFicha  The fichas to set.
+	 * @uml.property  name="iFicha"
+	 */
+	public void setIFicha(IFicha[] ficha) {
+		fichas = ficha;
+	}
+
+	/**
+	 * @uml.property  name="iDado"
+	 * @uml.associationEnd  multiplicity="(2 2)" dimension="1" ordering="true" aggregation="composite" inverse="tablero:IDado"
+	 */
+	private IDado[] dados;
+
+	/**
+	 * Getter of the property <tt>iDado</tt>
+	 * @return  Returns the dados.
+	 * @uml.property  name="iDado"
+	 */
+	public IDado[] getIDado() {
+		return dados;
+	}
+
+	/**
+	 * Setter of the property <tt>iDado</tt>
+	 * @param iDado  The dados to set.
+	 * @uml.property  name="iDado"
+	 */
+	public void setIDado(IDado[] dado) {
+		dados = dado;
+	}
+
+
+
+}
