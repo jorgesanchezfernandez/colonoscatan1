@@ -1,0 +1,5 @@
+
+
+public class Evento extends DadoEvento {
+
+}

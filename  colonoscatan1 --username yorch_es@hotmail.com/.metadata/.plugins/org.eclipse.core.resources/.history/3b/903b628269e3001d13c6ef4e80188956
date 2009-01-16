@@ -1,0 +1,15 @@
+package Cartas;
+
+
+
+
+public class CartaExpansionRegion extends CartaExpansion {
+
+	public ExpansionRegion createCarta (){
+		return null;
+	}
+	public void ejecutaExpansionRegion() {
+		// TODO Auto-generated method stub
+		
+	}
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.lang.Math"/>
+<fullyQualifiedTypeName name="Partida.Tablero"/>
+<fullyQualifiedTypeName name="Cartas.CartaCentralPoblado"/>
+<fullyQualifiedTypeName name="Cartas.CartaCentralCarretera"/>
+<fullyQualifiedTypeName name="Cartas.CartaCentralArbol"/>
+<fullyQualifiedTypeName name="Cartas.CartaEvento"/>
+<fullyQualifiedTypeName name="Cartas.CartaCentralCiudad"/>
+<fullyQualifiedTypeName name="Cartas.CartaAccion"/>
+<fullyQualifiedTypeName name="Cartas.CartaExpansionRegion"/>
+<fullyQualifiedTypeName name="Cartas.CartaExpansionCiudad"/>
+<fullyQualifiedTypeName name="Dados.Dado"/>
+<fullyQualifiedTypeName name="Cartas.Carta"/>
+<fullyQualifiedTypeName name="Dados.DadoEvento"/>
+<fullyQualifiedTypeName name="Dados.DadoProduccion"/>
+</qualifiedTypeNameHistroy>

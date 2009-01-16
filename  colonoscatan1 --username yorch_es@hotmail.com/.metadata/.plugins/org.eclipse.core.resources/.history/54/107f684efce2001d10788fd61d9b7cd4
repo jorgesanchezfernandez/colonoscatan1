@@ -1,0 +1,132 @@
+
+
+import java.util.Collection;
+import java.util.Iterator;
+
+public class Tablero {
+
+	/**
+	 * @uml.property  name="iFicha"
+	 * @uml.associationEnd  multiplicity="(2 2)" aggregation="composite" inverse="tablero:IFicha"
+	 */
+	private Collection ficha;
+
+	/**
+	 * Getter of the property <tt>iFicha</tt>
+	 * @return  Returns the ficha.
+	 * @uml.property  name="iFicha"
+	 */
+	public Collection getIFicha() {
+		return ficha;
+	}
+
+	/**
+	 * Returns an iterator over the elements in this collection. 
+	 * @return  an <tt>Iterator</tt> over the elements in this collection
+	 * @see java.util.Collection#iterator()
+	 * @uml.property  name="iFicha"
+	 */
+	public Iterator iFichaIterator() {
+		return ficha.iterator();
+	}
+
+	/**
+	 * Returns <tt>true</tt> if this collection contains no elements.
+	 * @return  <tt>true</tt> if this collection contains no elements
+	 * @see java.util.Collection#isEmpty()
+	 * @uml.property  name="iFicha"
+	 */
+	public boolean isIFichaEmpty() {
+		return ficha.isEmpty();
+	}
+
+	/**
+	 * Returns <tt>true</tt> if this collection contains the specified element. 
+	 * @param element  whose presence in this collection is to be tested.
+	 * @see java.util.Collection#contains(Object)
+	 * @uml.property  name="iFicha"
+	 */
+	public boolean containsIFicha(IFicha ficha) {
+		return ficha.contains(ficha);
+	}
+
+	/**
+	 * Returns <tt>true</tt> if this collection contains all of the elements in the specified collection.
+	 * @param elements  collection to be checked for containment in this collection.
+	 * @see java.util.Collection#containsAll(Collection)
+	 * @uml.property  name="iFicha"
+	 */
+	public boolean containsAllIFicha(Collection ficha) {
+		return this.ficha.containsAll(ficha);
+	}
+
+	/**
+	 * Returns the number of elements in this collection.
+	 * @return  the number of elements in this collection
+	 * @see java.util.Collection#size()
+	 * @uml.property  name="iFicha"
+	 */
+	public int iFichaSize() {
+		return ficha.size();
+	}
+
+	/**
+	 * Returns all elements of this collection in an array.
+	 * @return  an array containing all of the elements in this collection
+	 * @see java.util.Collection#toArray()
+	 * @uml.property  name="iFicha"
+	 */
+	public IFicha[] iFichaToArray() {
+		return (IFicha[]) ficha.toArray(new IFicha[ficha.size()]);
+	}
+
+	/**
+	 * Returns an array containing all of the elements in this collection;  the runtime type of the returned array is that of the specified array.
+	 * @param a  the array into which the elements of this collection are to be stored.
+	 * @return  an array containing all of the elements in this collection
+	 * @see java.util.Collection#toArray(Object[])
+	 * @uml.property  name="iFicha"
+	 */
+	public IFicha[] iFichaToArray(IFicha[] ficha) {
+		return (IFicha[]) this.ficha.toArray(ficha);
+	}
+
+	/**
+	 * Ensures that this collection contains the specified element (optional operation). 
+	 * @param element  whose presence in this collection is to be ensured.
+	 * @see java.util.Collection#add(Object)
+	 * @uml.property  name="iFicha"
+	 */
+	public boolean addIFicha(IFicha ficha) {
+		return ficha.add(ficha);
+	}
+
+	/**
+	 * Setter of the property <tt>iFicha</tt>
+	 * @param iFicha  the ficha to set.
+	 * @uml.property  name="iFicha"
+	 */
+	public void setIFicha(Collection ficha) {
+		ficha = ficha;
+	}
+
+	/**
+	 * Removes a single instance of the specified element from this collection, if it is present (optional operation).
+	 * @param element  to be removed from this collection, if present.
+	 * @see java.util.Collection#add(Object)
+	 * @uml.property  name="iFicha"
+	 */
+	public boolean removeIFicha(IFicha ficha) {
+		return ficha.remove(ficha);
+	}
+
+	/**
+	 * Removes all of the elements from this collection (optional operation).
+	 * @see java.util.Collection#clear()
+	 * @uml.property  name="iFicha"
+	 */
+	public void clearIFicha() {
+		ficha.clear();
+	}
+
+}

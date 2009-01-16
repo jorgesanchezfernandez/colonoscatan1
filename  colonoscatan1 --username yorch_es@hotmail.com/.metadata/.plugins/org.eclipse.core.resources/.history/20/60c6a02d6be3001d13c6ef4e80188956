@@ -1,0 +1,6 @@
+package Dados;
+
+
+public class DadoProduccion extends Dado {
+
+}

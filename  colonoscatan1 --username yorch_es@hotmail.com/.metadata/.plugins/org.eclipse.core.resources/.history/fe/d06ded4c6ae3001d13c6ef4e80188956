@@ -1,0 +1,27 @@
+package Dados;
+
+
+public class Dado implements IDado {
+	
+private String nombre = "";
+	
+
+	public String getNombre() {
+		return nombre;
+	}
+
+
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+
+
+	public void tirarDado() {
+				
+	}
+	
+	
+	public void createDado(){
+	}
+
+}

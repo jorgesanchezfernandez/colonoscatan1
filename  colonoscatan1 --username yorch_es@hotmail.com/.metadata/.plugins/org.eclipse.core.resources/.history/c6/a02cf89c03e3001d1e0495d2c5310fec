@@ -1,0 +1,30 @@
+
+
+public class Carta {
+
+	/**
+	 * @uml.property  name="jugador"
+	 * @uml.associationEnd  inverse="carta:Jugador"
+	 * @uml.association  name="CartasMano"
+	 */
+	private Jugador jugador;
+
+	/** 
+	 * Getter of the property <tt>jugador</tt>
+	 * @return  Returns the jugador.
+	 * @uml.property  name="jugador"
+	 */
+	public Jugador getJugador() {
+		return jugador;
+	}
+
+	/** 
+	 * Setter of the property <tt>jugador</tt>
+	 * @param jugador  The jugador to set.
+	 * @uml.property  name="jugador"
+	 */
+	public void setJugador(Jugador jugador) {
+		this.jugador = jugador;
+	}
+
+}

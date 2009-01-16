@@ -1,0 +1,9 @@
+package Dados;
+
+
+/**
+ * @uml.dependency   supplier="Evento"
+ */
+public class DadoEvento extends Dado {
+
+}

@@ -1,0 +1,101 @@
+
+
+public class Carta {
+
+	/** 
+	 * @uml.property name="jugador"
+	 * @uml.associationEnd inverse="carta:Jugador"
+	 */
+	private Jugador jugador;
+
+	/** 
+	 * Getter of the property <tt>jugador</tt>
+	 * @return  Returns the jugador.
+	 * @uml.property  name="jugador"
+	 */
+	public Jugador getJugador() {
+		return jugador;
+	}
+
+	/** 
+	 * Setter of the property <tt>jugador</tt>
+	 * @param jugador  The jugador to set.
+	 * @uml.property  name="jugador"
+	 */
+	public void setJugador(Jugador jugador) {
+		this.jugador = jugador;
+	}
+
+	/**
+	 * @uml.property  name="jugador1"
+	 * @uml.associationEnd  inverse="carta1:Jugador"
+	 */
+	private Jugador jugador1;
+
+	/**
+	 * Getter of the property <tt>jugador1</tt>
+	 * @return  Returns the jugador1.
+	 * @uml.property  name="jugador1"
+	 */
+	public Jugador getJugador1() {
+		return jugador1;
+	}
+
+	/**
+	 * Setter of the property <tt>jugador1</tt>
+	 * @param jugador1  The jugador1 to set.
+	 * @uml.property  name="jugador1"
+	 */
+	public void setJugador1(Jugador jugador1) {
+		this.jugador1 = jugador1;
+	}
+
+	/**
+	 * @uml.property  name="jugador2"
+	 * @uml.associationEnd  inverse="carta2:Jugador"
+	 */
+	private Jugador jugador2;
+
+	/**
+	 * Getter of the property <tt>jugador2</tt>
+	 * @return  Returns the jugador2.
+	 * @uml.property  name="jugador2"
+	 */
+	public Jugador getJugador2() {
+		return jugador2;
+	}
+
+	/**
+	 * Setter of the property <tt>jugador2</tt>
+	 * @param jugador2  The jugador2 to set.
+	 * @uml.property  name="jugador2"
+	 */
+	public void setJugador2(Jugador jugador2) {
+		this.jugador2 = jugador2;
+	}
+
+	/** 
+	 * @uml.property name="jugador3"
+	 * @uml.associationEnd multiplicity="(0 -1)" dimension="1" ordering="true" inverse="carta3:Jugador"
+	 */
+	private Jugador[] jugador3;
+
+	/**
+	 * Getter of the property <tt>jugador3</tt>
+	 * @return  Returns the jugador3.
+	 * @uml.property  name="jugador3"
+	 */
+	public Jugador[] getJugador3() {
+		return jugador3;
+	}
+
+	/**
+	 * Setter of the property <tt>jugador3</tt>
+	 * @param jugador3  The jugador3 to set.
+	 * @uml.property  name="jugador3"
+	 */
+	public void setJugador3(Jugador[] jugador3) {
+		this.jugador3 = jugador3;
+	}
+
+}

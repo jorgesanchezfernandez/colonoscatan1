@@ -1,0 +1,9 @@
+package Ficha;
+
+
+/**
+ * @uml.dependency   supplier="Tablero"
+ */
+public class Ficha implements IFicha {
+
+}

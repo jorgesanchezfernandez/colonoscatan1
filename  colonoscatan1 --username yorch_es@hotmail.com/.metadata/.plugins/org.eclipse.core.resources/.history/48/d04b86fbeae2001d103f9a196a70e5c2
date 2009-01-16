@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="(default package)" size="1109,782" id="" metadata="uml2-1.0" initialized="true" scrolledX="125" scrolledY="306" tag="5" key="32303037303533312D352049736732">
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.2/@sourceConnections.0 //@children.1/@sourceConnections.0 //@children.11/@sourceConnections.0" name="Tablero" location="360,15" size="186,265" id="/Tablero" runTimeClassModel="getJugadores(),inicializaPartida(),getInstance(),setTurno(LJugador;),mazos,turno,getDados(),instance,getTurno(),getMazos(),jugadores,dados">
+    <children xsi:type="editmodel:CompartmentEditModel" size="163,90">
+      <children xsi:type="editmodel:AttributeEditModel" name="mazos" id="/Tablero#mazos"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="turno" id="/Tablero#turno"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="jugadores" id="/Tablero#jugadores"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="dados" id="/Tablero#dados"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="instance" id="/Tablero#instance"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="103,126">
+      <children xsi:type="editmodel:MethodEditModel" name="getMazos" id="/Tablero#getMazos()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getTurno" id="/Tablero#getTurno()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getDados" id="/Tablero#getDados()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setTurno" id="/Tablero#setTurno(LJugador;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getJugadores" id="/Tablero#getJugadores()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="inicializaPartida" id="/Tablero#inicializaPartida()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getInstance" id="/Tablero#getInstance()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" verticalGuide="//@boardSetting/@topRuler/@guides.0" name="Jugador" location="12,15" size="160,355" id="/Jugador" runTimeClassModel="Jugador(Ljava.lang.String;ILjava.util.List;LMundo;),Jugador(LMundo;),getMano(),getColor(),br,elegirColor(),puntos,mundo,NegociarMPConBanca(),setColor(Ljava.lang.String;),color,utilizaCarta(LCarta;LJugador;),setPuntos(I),mano,getPuntos(),VerCartas(),addCarta(LCarta;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="113,90">
+      <children xsi:type="editmodel:AttributeEditModel" name="puntos" id="/Jugador#puntos"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="color" id="/Jugador#color"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="mano" id="/Jugador#mano"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="mundo" id="/Jugador#mundo"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="br" id="/Jugador#br"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="137,216">
+      <children xsi:type="editmodel:MethodEditModel" name="getPuntos" id="/Jugador#getPuntos()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getColor" id="/Jugador#getColor()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getMano" id="/Jugador#getMano()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setPuntos" id="/Jugador#setPuntos(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setColor" id="/Jugador#setColor(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addCarta" id="/Jugador#addCarta(LCarta;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="utilizaCarta" id="/Jugador#utilizaCarta(LCarta;LJugador;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="NegociarMPConBanca" id="/Jugador#NegociarMPConBanca()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="elegirColor" id="/Jugador#elegirColor()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="VerCartas" id="/Jugador#VerCartas()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Jugador" id="/Jugador#Jugador(LMundo;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Jugador" id="/Jugador#Jugador(Ljava.lang.String;ILjava.util.List;LMundo;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="/Tablero@tablero2+/IFicha@iFicha2" source="//@children.1" target="//@children.0" targetEnd="//@children.1/@sourceConnections.0/@children.1" label="//@children.1/@sourceConnections.0/@children.2" sourceEnd="//@children.1/@sourceConnections.0/@children.0" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" name="iFicha2" location="160,132" id="/Tablero@tablero2+/IFicha@iFicha2|/IFicha#iFicha2" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="tablero2" location="0,132" id="/Tablero@tablero2+/IFicha@iFicha2|/Tablero#tablero2" multiplicityLabel="//@children.1/@sourceConnections.0/@children.1/@children.1" roleLabel="//@children.1/@sourceConnections.0/@children.1/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" + tablero2" location="302,126" size="51,14" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="335,154" size="18,14" anchorKind="LastPart"/>
+      </children>
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.9/@sourceConnections.0 //@children.10/@sourceConnections.0" name="IFicha" location="694,15" size="111,99" id="/IFicha" runTimeClassModel="CreateFicha(),getFicha()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="88,36">
+      <children xsi:type="editmodel:MethodEditModel" name="CreateFicha" id="/IFicha#CreateFicha()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getFicha" id="/IFicha#getFicha()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="/Tablero@tablero2+/IFicha@iFicha2" source="//@children.2" target="//@children.0" targetEnd="//@children.2/@sourceConnections.0/@children.1" label="//@children.2/@sourceConnections.0/@children.2" sourceEnd="//@children.2/@sourceConnections.0/@children.0" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" name="iFicha2" location="0,49" id="/Tablero@tablero2+/IFicha@iFicha2|/IFicha#iFicha2" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="tablero2" location="186,49" id="/Tablero@tablero2+/IFicha@iFicha2|/Tablero#tablero2" multiplicityLabel="//@children.2/@sourceConnections.0/@children.1/@children.1" roleLabel="//@children.2/@sourceConnections.0/@children.1/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" + tablero2" location="553,43" size="51,14" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="553,71" size="18,14" anchorKind="LastPart"/>
+      </children>
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" verticalGuide="//@boardSetting/@topRuler/@guides.0" name="DadoEvento" location="18,210" size="128,121" id="/DadoEvento" runTimeClassModel="createDado(),cara,getCara(),tirarDado()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="105,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="cara" id="/DadoEvento#cara"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="86,54">
+      <children xsi:type="editmodel:MethodEditModel" name="getCara" id="/DadoEvento#getCara()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="tirarDado" id="/DadoEvento#tirarDado()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="createDado" id="/DadoEvento#createDado()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Mazo" location="492,108" size="160,265" id="/Mazo" runTimeClassModel="createMazoRegion(),createMazoEvento(),getMazo(),createMazoPoblado(),createMazoCarretera(),setTipoMazo(Ljava.lang.String;),createMazoExpansion(),mazo,Mazo(Ljava.lang.String;),getTipoMazo(),createMazoCiudad(),tipoMazo">
+    <children xsi:type="editmodel:CompartmentEditModel" size="106,36">
+      <children xsi:type="editmodel:AttributeEditModel" name="mazo" id="/Mazo#mazo"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="tipoMazo" id="/Mazo#tipoMazo"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="137,180">
+      <children xsi:type="editmodel:MethodEditModel" name="getMazo" id="/Mazo#getMazo()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="createMazoRegion" id="/Mazo#createMazoRegion()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getTipoMazo" id="/Mazo#getTipoMazo()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setTipoMazo" id="/Mazo#setTipoMazo(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="createMazoCarretera" id="/Mazo#createMazoCarretera()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="createMazoCiudad" id="/Mazo#createMazoCiudad()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="createMazoEvento" id="/Mazo#createMazoEvento()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="createMazoPoblado" id="/Mazo#createMazoPoblado()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Mazo" id="/Mazo#Mazo(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="createMazoExpansion" id="/Mazo#createMazoExpansion()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.6/@sourceConnections.0 //@children.7/@sourceConnections.0 //@children.8/@sourceConnections.0" name="Carta" location="688,232" size="124,157" id="/Carta" runTimeClassModel="nombre,estrategia,setNombre(Ljava.lang.String;),getEstrategia(),getNombre(),setEstrategia(Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="101,36">
+      <children xsi:type="editmodel:AttributeEditModel" name="nombre" id="/Carta#nombre"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="estrategia" id="/Carta#estrategia"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="93,72">
+      <children xsi:type="editmodel:MethodEditModel" name="setEstrategia" id="/Carta#setEstrategia(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getEstrategia" id="/Carta#getEstrategia()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setNombre" id="/Carta#setNombre(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getNombre" id="/Carta#getNombre()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.19/@sourceConnections.0 //@children.20/@sourceConnections.0" name="Expansión" location="551,323" size="111,57" id="/Expansión" runTimeClassModel="numCartas">
+    <children xsi:type="editmodel:CompartmentEditModel" size="88,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="numCartas" id="/Expansión#numCartas"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="/Carta&lt;-/Expansión" source="//@children.6" target="//@children.5" targetEnd="//@children.6/@sourceConnections.0/@children.1" sourceEnd="//@children.6/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="111,28" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,119"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="CEvento" location="955,406" size="134,57" id="/CEvento" runTimeClassModel="numCartasE">
+    <children xsi:type="editmodel:CompartmentEditModel" size="111,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="numCartasE" id="/CEvento#numCartasE"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="/Carta&lt;-/CEvento" source="//@children.7" target="//@children.5" targetEnd="//@children.7/@sourceConnections.0/@children.1" sourceEnd="//@children.7/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="6,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="124,106"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Central" location="782,462" size="118,57" id="/Central" runTimeClassModel="numCartas,numCartasC">
+    <children xsi:type="editmodel:CompartmentEditModel" size="95,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="numCartasC" id="/Central#numCartasC"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="/Carta&lt;-/Central" source="//@children.8" target="//@children.5" targetEnd="//@children.8/@sourceConnections.0/@children.1" sourceEnd="//@children.8/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="14,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="108,157"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Molino" location="661,154" size="122,57" id="/Molino" runTimeClassModel="PuntosMolino">
+    <children xsi:type="editmodel:CompartmentEditModel" size="99,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="PuntosMolino" id="/Molino#PuntosMolino"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="/IFicha&lt;-/Molino" source="//@children.9" target="//@children.2" targetEnd="//@children.9/@sourceConnections.0/@children.1" sourceEnd="//@children.9/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="77,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="44,99"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Caballero" location="765,154" size="137,103" id="/Caballero" runTimeClassModel="CreateFicha(),PuntosCaballero,getFicha(),PuntosCaba">
+    <children xsi:type="editmodel:CompartmentEditModel" size="114,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="PuntosCaballero" id="/Caballero#PuntosCaballero"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="88,36">
+      <children xsi:type="editmodel:MethodEditModel" name="CreateFicha" id="/Caballero#CreateFicha()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getFicha" id="/Caballero#getFicha()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="/IFicha&lt;-/Caballero" source="//@children.10" target="//@children.2" targetEnd="//@children.10/@sourceConnections.0/@children.1" sourceEnd="//@children.10/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="19,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="90,99"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.21/@sourceConnections.0" name="Mundo" location="345,371" size="165,319" id="/Mundo" runTimeClassModel="carta,clearCarta(),cartaIterator(),removeCarta(LCarta;),cartaToArray([LCarta;),cartaSize(),Mundo(),expandirMundo(),isCartaEmpty(),containsCarta(LCarta;),containsAllCarta(Ljava.util.Collection;),getCarta(),cartaToArray(),setCarta(Ljava.util.Collection;),addCarta(LCarta;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="142,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="carta" id="/Mundo#carta"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="109,252">
+      <children xsi:type="editmodel:MethodEditModel" name="setCarta" id="/Mundo#setCarta(Ljava.util.Collection;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="cartaIterator" id="/Mundo#cartaIterator()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getCarta" id="/Mundo#getCarta()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="clearCarta" id="/Mundo#clearCarta()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="cartaToArray" id="/Mundo#cartaToArray([LCarta;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addCarta" id="/Mundo#addCarta(LCarta;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="removeCarta" id="/Mundo#removeCarta(LCarta;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="cartaSize" id="/Mundo#cartaSize()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Mundo" id="/Mundo#Mundo()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="expandirMundo" id="/Mundo#expandirMundo()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="containsCarta" id="/Mundo#containsCarta(LCarta;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isCartaEmpty" id="/Mundo#isCartaEmpty()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="cartaToArray" id="/Mundo#cartaToArray()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="containsAllCarta" id="/Mundo#containsAllCarta(Ljava.util.Collection;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="/Tablero@tablero1+/IFicha@iFicha1" source="//@children.11" target="//@children.0" targetEnd="//@children.11/@sourceConnections.0/@children.1" label="//@children.11/@sourceConnections.0/@children.2" sourceEnd="//@children.11/@sourceConnections.0/@children.0" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" name="iFicha1" location="89,0" id="/Tablero@tablero1+/IFicha@iFicha1|/IFicha#iFicha1" attachSource="true" orderingLabel="//@children.11/@sourceConnections.0/@children.0/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" name="{order}" location="441,350" size="34,14" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="tablero1" location="74,265" id="/Tablero@tablero1+/IFicha@iFicha1|/Tablero#tablero1" multiplicityLabel="//@children.11/@sourceConnections.0/@children.1/@children.1" roleLabel="//@children.11/@sourceConnections.0/@children.1/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" + tablero1" location="441,287" size="51,14" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="409,287" size="18,14" anchorKind="LastPart"/>
+      </children>
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.13/@sourceConnections.0 //@children.14/@sourceConnections.0 //@children.15/@sourceConnections.0 //@children.16/@sourceConnections.0 //@children.17/@sourceConnections.0" name="Evento" location="18,332" size="91,67" id="/Evento" runTimeClassModel="CreateEvento(),getEvento(),getCara()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="68,18">
+      <children xsi:type="editmodel:MethodEditModel" name="getCara" id="/Evento#getCara()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Torneo" location="139,524" size="87,29" id="/Torneo" runTimeClassModel="">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="/Evento&lt;-/Torneo" source="//@children.13" target="//@children.12" targetEnd="//@children.13/@sourceConnections.0/@children.1" sourceEnd="//@children.13/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="33,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="68,67"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Garrote" location="50,552" size="90,29" id="/Garrote" runTimeClassModel="">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="/Evento&lt;-/Garrote" source="//@children.14" target="//@children.12" targetEnd="//@children.14/@sourceConnections.0/@children.1" sourceEnd="//@children.14/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="29,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="61,67"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Sol" location="12,496" size="63,29" id="/Sol" runTimeClassModel="">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="/Evento&lt;-/Sol" source="//@children.15" target="//@children.12" targetEnd="//@children.15/@sourceConnections.0/@children.1" sourceEnd="//@children.15/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="34,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="28,67"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="EMolino" location="268,524" size="93,29" id="/EMolino" runTimeClassModel="">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="/Evento&lt;-/EMolino" source="//@children.16" target="//@children.12" targetEnd="//@children.16/@sourceConnections.0/@children.1" sourceEnd="//@children.16/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="26,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="91,65"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Interrogacion1" location="240,453" size="134,29" id="/Interrogacion1" runTimeClassModel="">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="/Evento&lt;-/Interrogacion1" source="//@children.17" target="//@children.12" targetEnd="//@children.17/@sourceConnections.0/@children.1" sourceEnd="//@children.17/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="34,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="91,52"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" name="IDado" location="178,167" size="109,99" id="/IDado" runTimeClassModel="createDado(),tirarDado()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="86,36">
+      <children xsi:type="editmodel:MethodEditModel" name="tirarDado" id="/IDado#tirarDado()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="createDado" id="/IDado#createDado()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="ExpansionRegion" location="440,463" size="171,67" id="/ExpansionRegion" runTimeClassModel="ejecutaExpansionRegion()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="148,18">
+      <children xsi:type="editmodel:MethodEditModel" name="ejecutaExpansionRegion" id="/ExpansionRegion#ejecutaExpansionRegion()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="/Expansión&lt;-/ExpansionRegion" source="//@children.19" target="//@children.6" targetEnd="//@children.19/@sourceConnections.0/@children.1" sourceEnd="//@children.19/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="140,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="29,57"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="AmpliacionCiudad" location="624,463" size="173,67" id="/AmpliacionCiudad" runTimeClassModel="ejecutaAmpliacionCiudad()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="150,18">
+      <children xsi:type="editmodel:MethodEditModel" name="ejecutaAmpliacionCiudad" id="/AmpliacionCiudad#ejecutaAmpliacionCiudad()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="/Expansión&lt;-/AmpliacionCiudad" source="//@children.20" target="//@children.6" targetEnd="//@children.20/@sourceConnections.0/@children.1" sourceEnd="//@children.20/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="18,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="91,57"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="DecoradorMundo" location="450,733" size="151,29" id="/DecoradorMundo" runTimeClassModel="">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="/Mundo&lt;-/DecoradorMundo" source="//@children.21" target="//@children.11" targetEnd="//@children.21/@sourceConnections.0/@children.1" sourceEnd="//@children.21/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="29,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="134,319"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" properties="wireOptions=1;Product=eUML2" autoName="false"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel" gridVisibility="false">
+    <leftRuler/>
+    <topRuler>
+      <guides position="135">
+        <entries element="//@children.1" alignment="1"/>
+        <entries element="//@children.3" alignment="1"/>
+      </guides>
+      <guides position="822"/>
+    </topRuler>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showPopupBars="true" showConnectionHandles="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" showDependencyStereotype="true" showInterfaceStereotype="true" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+</editmodel:ClassDiagramEditModel>

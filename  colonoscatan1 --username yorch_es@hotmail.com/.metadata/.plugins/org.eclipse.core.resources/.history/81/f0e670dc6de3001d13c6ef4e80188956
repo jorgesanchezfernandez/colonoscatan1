@@ -1,0 +1,6 @@
+package Cartas;
+
+
+public class CartaCentralPoblado extends CartaCentral {
+
+}
