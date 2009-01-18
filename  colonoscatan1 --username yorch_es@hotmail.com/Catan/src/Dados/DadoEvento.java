@@ -2,32 +2,18 @@ package Dados;
 
 import java.util.Collection;
 
-
-/**
- * @uml.dependency   supplier="Evento"
- */
 public class DadoEvento extends Dado {
 	
-	private DadoEvento cara;
-	private Collection<DadoEvento> eventos;
-	
-	
-		
-	
-	public DadoEvento(){
-		//El dado tiene 5 eventos distintos
+	public void DadoEvento(){
 		
 	}
-	public DadoEvento getCara(){
-		return cara;
-	}
-
-	public void createDado(){
-	}
 	
-	public void tirarDado() {
-		
-	}
+	public int tirarDado(){ // Este dado toma valores entre 1 y 5
+		double valor = 0;
+		int puntuacion = 0; // Con esta variable truncamos los decimales.
+		valor = Math.random()*5+1;
+		puntuacion = (int)valor;
 				
-
+		return puntuacion;
+	}
 }
