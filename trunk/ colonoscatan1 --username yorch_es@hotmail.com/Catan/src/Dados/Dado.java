@@ -5,7 +5,7 @@ public class Dado implements IDado {
 	
 
 
-	public void tirarDado() {
+	public int tirarDado() {
 				
 	}
 	

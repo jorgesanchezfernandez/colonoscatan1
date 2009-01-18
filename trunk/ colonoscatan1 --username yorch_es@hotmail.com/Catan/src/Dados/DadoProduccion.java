@@ -1,17 +1,21 @@
 package Dados;
 
-import java.util.Random;
+import java.math.*;
 
 
 public class DadoProduccion extends Dado {
 
-	
-	Random rnd = new Random();
-	
-	public void tirarDado(){
-		int puntuacion;
-		puntuacion=(int) Math.random()*6+1;
+	public void DadoProduccion(){
 		
+	}
+	
+	public int tirarDado(){
+		double valor = 0;
+		int puntuacion = 0; // Con esta variable truncamos los decimales.
+		valor = Math.random()*6+1;
+		puntuacion = (int)valor;
+		
+		return puntuacion;
 	}
 
 }
