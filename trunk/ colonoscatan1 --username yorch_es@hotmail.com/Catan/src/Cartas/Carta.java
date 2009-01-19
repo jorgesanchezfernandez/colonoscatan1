@@ -26,8 +26,8 @@ public abstract class Carta {
 		this.estrategia = estrategia;
 	}
 	
-	public Carta createCarta(){
-		return null;	
+	public static void ejecutar(){
+		
 	}
 
 }

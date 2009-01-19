@@ -173,25 +173,25 @@ public class Jugador {
 			if (c instanceof CartaAccion){
 				//Ejecuta la Accion ya que la carta es de Accion
 				CartaAccion c1 = (CartaAccion)c;
-				c1.ejecutaAccion(puntos,j2.puntos);
+				c1.ejecutar();
 			}
 			
 			if (c instanceof CartaExpansionCiudad){
 				//Ejecuta la AmpliaciónCiudad ya que la carta es de AmpliacionCiudad
 				CartaExpansionCiudad c1 = (CartaExpansionCiudad)c;
-				c1.ejecutaAmpliacionCiudad();
+				c1.ejecutar();
 			}
 				
 			if (c instanceof CartaExpansionRegion){
 				//Ejecuta la ExpansionRegion ya que la carta es de ExpansionRegion
 				CartaExpansionRegion c1 = (CartaExpansionRegion)c;
-				c1.ejecutaExpansionRegion();
+				c1.ejecutar();
 			}
 			
 			if (c instanceof CartaEvento){
 				//Ejecuta el Evento por ser carta de Evento
 				CartaEvento e= (CartaEvento)c;
-				e.ejecutarCartaEvento();
+				e.ejecutar();
 			}
 	
 			mano.remove(c);	

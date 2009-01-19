@@ -56,98 +56,80 @@ public class Mazo {
 		setTipoMazo(tipoMazo);
 		
 		if (tipoMazo=="EventoDado")
-			mazo = createMazoEventoDado();
+			createMazoEventoDado();
 		else if (tipoMazo=="Ciudad")
-			mazo = createMazoCiudad();
+			createMazoCiudad();
 		else if (tipoMazo=="Poblado")
-			mazo = createMazoPoblado();
+			createMazoPoblado();
 		else if (tipoMazo=="Carretera")
-			mazo = createMazoCarretera();
+			createMazoCarretera();
 		else if (tipoMazo=="Arbol")
-			mazo = createMazoArbol();
+			createMazoArbol();
 		else if (tipoMazo=="Expansion")
-			mazo = createMazoExpansion();
+			createMazoExpansion();
 		
 	}
 	
 	
-	public List<Carta> createMazoEventoDado(){
-		List<Carta> mazoEvento = null;
+	public void createMazoEventoDado(){
+		
 		//Crea 1 mazo de 10 cartas de tipo Evento
 		for (int i=0; i<NUMCEVENTOSDADO; i++){
-			CartaEvento c = null;
-			mazoEvento.add(c.createCarta());
+			mazo.add(new CartaEvento());
 		}
 		
-		return mazoEvento;
+		
 	}
-	public List<Carta> createMazoCiudad(){
-		List<Carta> mazoCiudad = null;
+	public void createMazoCiudad(){
 		//Crea 1 mazo de 7 cartas de tipo ciudad
-		for (int i=0; i<NUMCCIUDAD; i++){
-			CartaCentralCiudad c = null;
-			mazoCiudad.add(c.createCarta());
+		for (int i=0; i<NUMCCIUDAD; i++){			
+			mazo.add(new CartaCentralCiudad());
 		}
 		
-		return mazoCiudad;
 	}
-	public List<Carta> createMazoPoblado(){
-		List<Carta> mazoPoblado = null;
+	public void createMazoPoblado(){
+
 		//Crea 1 mazo de 5 cartas de tipo Poblado
 		for (int i=0; i<NUMCPOBLADO; i++){
-			CartaCentralPoblado c = null;
-			mazoPoblado.add(c.createCarta());
+			mazo.add(new CartaCentralPoblado());
 		}
-		return mazoPoblado;
 	}
-	public List<Carta> createMazoCarretera(){
-		List<Carta> mazoCarretera = null;
+	public void createMazoCarretera(){
+
 		//Crea 1 mazo de 7 cartas de tipo Carretera
 		for (int i=0; i<NUMCCARRETERA; i++){
-			CartaCentralCarretera c = null;
-			mazoCarretera.add(c.createCarta());
+			mazo.add(new CartaCentralCarretera());
 		}
 		
-		return mazoCarretera;
 	}
-	public List<Carta> createMazoArbol(){
-		List<Carta> mazoArbol = null;
+	public void createMazoArbol(){
+		
 		//Crea 1 mazo de 11 cartas de tipo Arbol
 		for (int i=0; i<NUMCARBOL; i++){
-			CartaCentralArbol c = null;
-			mazoArbol.add(c.createCarta());
+			mazo.add(new CartaCentralArbol());
 		}
-		
-		return mazoArbol;
 	}
 	
-	public List<Carta> createMazoExpansion(){
-		
-		List<Carta> mazoExpansion = null;
+	public void createMazoExpansion(){
 		
 		//Crea 1 mazo de 62 cartas de tipo Expansion
 		//Cartas de Acción
-		for (int i=0; i<0; i++){
-			CartaAccion c = null;
-			mazoExpansion.add(c.createCarta());
+		for (int i=0; i<15; i++){
+			mazo.add(new CartaAccion());
 		}
 		//Cartas de Evento
-		for (int i=0; i<0; i++){
-			CartaEvento c = null;
-			mazoExpansion.add(c.createCarta());
+		for (int i=0; i<15; i++){
+			mazo.add(new CartaEvento());
 		}
 		//Cartas de Expansion de Region
-		for (int i=0; i<0; i++){
-			CartaExpansionRegion c = null;
-			mazoExpansion.add(c.createCarta());
+		for (int i=0; i<15; i++){
+			mazo.add(new CartaExpansionRegion());
 		}
 		//Cartas de Ampliacion de Ciudad
-		for (int i=0; i<0; i++){
-			CartaExpansionCiudad c = null;
-			mazoExpansion.add(c.createCarta());
+		for (int i=0; i<17; i++){
+			mazo.add(new CartaExpansionCiudad());
 		}
 		
-		return mazoExpansion;
 	}
 	//********************************************************
 	//********************************************************
