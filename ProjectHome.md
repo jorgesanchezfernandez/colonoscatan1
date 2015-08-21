@@ -1,0 +1,1 @@
+Este repositorio es la primera refactorización del proyecto Catan Card game
